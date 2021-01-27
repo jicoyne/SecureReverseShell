@@ -14,12 +14,16 @@ Sometimes you get stuck with a secure environment where all the servers and end-
 <br>
 <br>
 
-/>/>reset
-Listening for connection...
-Command Shell Open
-/>/>
+/>>reset
 
->>ls /usr/sbin | grep use
+Listening for connection...
+
+Command Shell Open
+
+
+
+/>>ls /usr/sbin | grep use
+
 adduser
 deluser
 newusers
@@ -27,7 +31,8 @@ useradd
 userdel
 usermod
 
->>python -V
+/>>python -V
+
 Python 3.8.2
 
 <br>
