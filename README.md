@@ -14,10 +14,10 @@ Sometimes you get stuck with a secure environment where all the servers and end-
 <br>
 <br>
 
->>reset
+/>/>reset
 Listening for connection...
 Command Shell Open
->>
+/>/>
 
 >>ls /usr/sbin | grep use
 adduser
