@@ -1,7 +1,7 @@
-Sometimes you get stuck with a secure environment where all the servers and end-clients are fully patched, updated, firewalled. Network firewall rules have been configured properly, and all internal clients are NATed to the Internet.
+Sometimes you get stuck with a secure environment where all the servers and end-clients are fully patched, updated and firewalled. Network firewall rules have been configured properly, and all internal clients are NATed to the Internet.
 
 
-main.py - runs on the remote client and attempts to connect to server.py via SSH.
+<b>main.py</b> - runs on the remote client and attempts to connect to server.py via SSH.
 
 server.py - accepts the incoming ssh connection and issues commands to the remote client.
 
