@@ -40,6 +40,67 @@ Python 3.8.2
 
 35.223.251.99
 
+/>> lscpu
+
+neIntel
+cpu family	: 6
+model		: 63
+model name	: Intel(R) Xeon(R) CPU @ 2.30GHz
+stepping	: 0
+microcode	: 0x1
+cpu MHz		: 2299.998
+cache size	: 46080 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+
+/>> cat /proc/meminfo
+
+MemTotal:       26694668 kB
+MemFree:        19898648 kB
+MemAvailable:   23455560 kB
+Buffers:          315700 kB
+Cached:          2850172 kB
+SwapCached:            0 kB
+Active:          3122832 kB
+Inactive:        1996740 kB
+Active(anon):    1570556 kB
+Inactive(anon):     2620 kB
+Active(file):    1552276 kB
+Inactive(file):  1994120 kB
+Unevictable:       47420 kB
+Mlocked:           47420 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:               800 kB
+Writeback:             0 kB
+AnonPages:       2001056 kB
+Mapped:           467124 kB
+Shmem:             10520 kB
+KReclaimable:     427948 kB
+Slab:            1170044 kB
+SReclaimable:     427948 kB
+SUnreclaim:       742096 kB
+KernelStack:      307552 kB
+PageTables:        34192 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    13347332 kB
+Committed_AS:   32252560 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      320072 kB
+VmallocChunk:          0 kB
+Percpu:            13808 kB
+HardwareCorru
+
 <br>
 <br>
 <br>
