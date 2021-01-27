@@ -23,7 +23,7 @@ Command Shell Open
 
 
 
-/>>ls /usr/sbin | grep user
+<>>ls /usr/sbin | grep user>
 
 adduser
 deluser
