@@ -1,9 +1,17 @@
 Sometimes you get stuck with a secure environment where all the servers and end-clients are fully patched, updated, firewalled. Network firewall rules have been configured properly, and all internal clients are NATed to the Internet.
 
+
 main.py - runs on the remote client and attempts to connect to server.py via SSH.
+
 server.py - accepts the incoming ssh connection and issues commands to the remote client.
+
 id_rsa - use ssh-keygen to generate your own private key on the server
+
 poetry.lock and pyproject.toml - Packager files for repl.it
+
+
+
+
 
 
 Copyright 2021 jicoyne@cisco.com
