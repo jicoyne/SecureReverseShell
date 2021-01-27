@@ -36,6 +36,10 @@ usermod
 
 Python 3.8.2
 
+/>>curl ifconfig.me
+
+35.223.251.99
+
 <br>
 <br>
 <br>
