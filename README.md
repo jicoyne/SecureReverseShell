@@ -12,9 +12,6 @@ Sometimes you get stuck with a secure environment where all the servers and end-
 
 <br>
 <br>
-<br>
-<br>
-
 />>reset
 
 Listening for connection...
@@ -77,16 +74,6 @@ MemAvailable:   23455560 kB
 Buffers:          315700 kB
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
