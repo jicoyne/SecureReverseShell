@@ -23,22 +23,22 @@ Command Shell Open
 
 
 
-<>>ls /usr/sbin | grep user>
+'>>ls /usr/sbin | grep user'
 
-adduser
+'adduser
 deluser
 newusers
 useradd
 userdel
-usermod
+usermod'
 
-/>>python -V
+'>>python -V'
 
-Python 3.8.2
+'Python 3.8.2'
 
-/>>curl ifconfig.me
+'>>curl ifconfig.me'
 
-35.223.251.99
+'35.223.251.99'
 
 <br>
 <br>
