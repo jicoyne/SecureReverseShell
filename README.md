@@ -8,7 +8,7 @@ Sometimes you get stuck with a secure environment where all the servers and end-
 
 <b>id_rsa</b> - use ssh-keygen to generate your own private key on the server
 
-<b>poetry.lock</b> and <b>pyproject.toml</b> - Packager files for repl.it
+<b>poetry.lock</b> and <b>pyproject.toml</b> - Packager files
 
 <br>
 <br>
