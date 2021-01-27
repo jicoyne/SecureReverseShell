@@ -22,7 +22,7 @@ Command Shell Open
 
 
 
-/>>ls /usr/sbin | grep use
+/>>ls /usr/sbin | grep user
 
 adduser
 deluser
