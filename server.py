@@ -1,7 +1,5 @@
 import socket
 import paramiko
-import threading
-import sys
 
 KEYNAME = 'id_rsa'
 HOST = '0.0.0.0'
@@ -9,7 +7,6 @@ PORT = 2022
 USERNAME = 'test'
 PASSWORD = 'test'
 host_key = paramiko.RSAKey(filename=KEYNAME)
-
 
 class Server (paramiko.ServerInterface):
    def _init_(self):
@@ -35,7 +32,7 @@ while True:
 
     except ValueError as e:
         print('Listen/bind/accept failed: ' + str(e))
-        sys.exit(1)
+        pass
 
     try:
         t = paramiko.Transport(client)

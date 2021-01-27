@@ -1,7 +1,5 @@
 import paramiko
 import subprocess
-import os
-
 
 HOST = '10.10.10.10'
 USERNAME = 'test'
