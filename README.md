@@ -1,6 +1,4 @@
-Sometimes you get stuck with a secure environment where all the servers and end-clients are fully patched, updated and firewalled. Network firewall rules have been configured properly, and all internal clients are NATed to the Internet.
-<br>
-<br>
+
 
 <b>main.py</b> - runs on the remote client, attempts to connect to server.py via ssh. After connection, a reverse shell is maintained.
 
